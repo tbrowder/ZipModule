@@ -1,0 +1,26 @@
+{
+  "api": 0,
+  "auth": "zef:tbrowder",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Use this module to aid development of a Raku module with ChatGPT\n",
+  "license": "Artistic-2.0",
+  "name": "ZipModule",
+  "perl": "6.d",
+  "provides": {
+    "ZipModule": "lib/ZipModule.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
