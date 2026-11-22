@@ -29,11 +29,15 @@ or C<App::Mi6> as shown here:
 
 =head2 Files
 
-'    C<Changes LICENSE META6.json dist.ini> 
+=begin code
+    Changes LICENSE META6.json dist.ini
+=end code
 
 =head2 Directories
 
-'    'C<lib/ bin/ docs/ sbin/ t/ xt/ .github/>
+=begin code
+    lib/ bin/ docs/ sbin/ t/ xt/ .github/
+=end code
 
 
 
