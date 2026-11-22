@@ -3,14 +3,14 @@
 NAME
 ====
 
-**ZipModule** - Use this module's 'zip-module' program to aid development of a Raku module with ChatGPT
+**ZipModule** - Use this module's 'zip-module' program to aid development of a Raku module with an AI agent
 
 SYNOPSIS
 ========
 
-This module provides Raku program `zip-module` to safely collect the standard data created in a `App::Mi6`-managed package into a `zip` file without inadvertently including private data hidden in other files (such as .git).
+This module provides Raku program `zip-module` to safely collect the standard data created in an `App::Mi6`-managed package into a `zip` file without inadvertently including private data hidden in other files (such as .git).
 
-The user is working on a new module and is using ChatGPT (or another AI agent) to assist. In a common scenario, ChatGPT will want the current state of the user's code or the user wants to ensure ChatGPT has his or her current code.
+The target user is working on a new module and is using ChatGPT (or another AI agent) to assist. In a common scenario, ChatGPT will want the current state of the user's code or the user wants to ensure ChatGPT has his or her current code.
 
 DESCRIPTION
 ===========
@@ -29,7 +29,17 @@ Directories
 
         lib/ bin/ docs/ sbin/ t/ xt/ .github/
 
-UTHOR
+Example
+=======
+
+Safely copy a module directory
+
+    zip-module </path/to/Some-Module>
+    See zipped module "./Some-Module-SAFE.zip"
+
+Then, using the appropiate AI agent's method, insert the zipped safe module directory into the AI agent's data input slot.
+
+AUTHOR
 ======
 
 Tom Browder <tbrowder@acm.org>

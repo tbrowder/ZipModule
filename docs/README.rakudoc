@@ -2,7 +2,7 @@
 
 =head1 NAME
 
-B<ZipModule> - Use this module's 'zip-module' program  to aid development of a Raku module with ChatGPT
+B<ZipModule> - Use this module's 'zip-module' program to aid development of a Raku module with an AI agent
 
 =head1 SYNOPSIS
 
@@ -41,14 +41,14 @@ or C<App::Mi6> as shown here:
 
 =head1 Example
 
-=item Copy a module directory
+Safely copy a module directory
 
 =begin code
 zip-module </path/to/Some-Module>
 See zipped module "./Some-Module-SAFE.zip"
 =end code
 
-Then, using the apprpiate AI agent's method, insert
+Then, using the appropiate AI agent's method, insert
 the zipped safe module directory into the AI agent's data input slot.
 
 =head1 AUTHOR
