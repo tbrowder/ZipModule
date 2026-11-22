@@ -12,12 +12,12 @@ C<App::Mi6>-managed package into a C<zip> file
 without inadvertently including private data
 hidden in other files (such as .git).
 
+=head1 DESCRIPTION
+
 The target user is working on a new module and is using ChatGPT (or
 another AI agent) to assist. In a 
 common scenario, ChatGPT will want the current state of the user's
 code or the user wants to ensure ChatGPT has his or her current code.
-
-=head1 DESCRIPTION
 
 This module provides Raku program C<zip-module> to 
 safely do that without accidentally including any git

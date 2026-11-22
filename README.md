@@ -10,10 +10,10 @@ SYNOPSIS
 
 This module provides Raku program `zip-module` to safely collect the standard data created in an `App::Mi6`-managed package into a `zip` file without inadvertently including private data hidden in other files (such as .git).
 
-The target user is working on a new module and is using ChatGPT (or another AI agent) to assist. In a common scenario, ChatGPT will want the current state of the user's code or the user wants to ensure ChatGPT has his or her current code.
-
 DESCRIPTION
 ===========
+
+The target user is working on a new module and is using ChatGPT (or another AI agent) to assist. In a common scenario, ChatGPT will want the current state of the user's code or the user wants to ensure ChatGPT has his or her current code.
 
 This module provides Raku program `zip-module` to safely do that without accidentally including any git data or private data in the process. 
 
