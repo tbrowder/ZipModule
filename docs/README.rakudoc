@@ -36,7 +36,7 @@ or C<App::Mi6> as shown here:
 =head2 Directories
 
 =begin code
-    lib/ bin/ docs/ sbin/ t/ xt/ .github/
+    lib/ bin/ docs/ sbin/ t/ xt/ \.github/
 =end code
 
 
