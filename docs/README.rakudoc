@@ -29,11 +29,11 @@ or C<App::Mi6> as shown here:
 
 =head2 Files
 
-C<Changes LICENSE META6.json dist.ini> 
+'    C<Changes LICENSE META6.json dist.ini> 
 
 =head2 Directories
 
-C<lib/ bin/ docs/ sbin/ t/ xt/ .github>
+'    'C<lib/ bin/ docs/ sbin/ t/ xt/ .github/>
 
 
 
