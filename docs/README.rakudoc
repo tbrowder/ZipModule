@@ -7,12 +7,12 @@ B<ZipModule> - Use this module's 'zip-module' program  to aid development of a R
 =head1 SYNOPSIS
 
 This module provides Raku program C<zip-module> to 
-safely collect the standard data created in a
+safely collect the standard data created in an
 C<App::Mi6>-managed package into a C<zip> file
 without inadvertently including private data
 hidden in other files (such as .git).
 
-The user is working on a new module and is using ChatGPT (or
+The target user is working on a new module and is using ChatGPT (or
 another AI agent) to assist. In a 
 common scenario, ChatGPT will want the current state of the user's
 code or the user wants to ensure ChatGPT has his or her current code.
@@ -35,12 +35,21 @@ or C<App::Mi6> as shown here:
 
 =head2 Directories
 
-=begin formatted
+=begin code
     lib/ bin/ docs/ sbin/ t/ xt/ .github/
-=end formatted
+=end code
 
+=head1 Example
 
+=item Copy a module directory
 
+=begin code
+zip-module </path/to/Some-Module>
+See zipped module "./Some-Module-SAFE.zip"
+=end code
+
+Then, using the apprpiate AI agent's method, insert
+the zipped safe module directory into the AI agent's data input slot.
 
 =head1 AUTHOR
 

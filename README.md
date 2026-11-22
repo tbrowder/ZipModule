@@ -22,14 +22,14 @@ Use of this module assumes the user is a developer creating a module using the s
 Files
 -----
 
-`Changes LICENSE META6.json dist.ini` 
+        Changes LICENSE META6.json dist.ini
 
 Directories
 -----------
 
-`lib/ bin/ docs/ sbin/ t/ xt/ .github`
+        lib/ bin/ docs/ sbin/ t/ xt/ .github/
 
-AUTHOR
+UTHOR
 ======
 
 Tom Browder <tbrowder@acm.org>
