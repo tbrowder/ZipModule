@@ -2,20 +2,41 @@
 
 =head1 NAME
 
-B<ZipModule> - Use this module to aid development of a Raku module with ChatGPT
-
+B<ZipModule> - Use this module's 'zip-module' program  to aid development of a Raku module with ChatGPT
 
 =head1 SYNOPSIS
 
-=begin code :lang<raku>
+This module provides Raku program C<zip-module> to 
+safely collect the standard data created in a
+C<App::Mi6>-managed package into a C<zip> file
+without inadvertently including private data
+hidden in other files (such as .git).
 
-use ZipModule;
-
-=end code
+The user is working on a new module and is using ChatGPT (or
+another AI agent) to assist. In a 
+common scenario, ChatGPT will want the current state of the user's
+code or the user wants to ensure ChatGPT has his or her current code.
 
 =head1 DESCRIPTION
 
-B<ZipModule> is ...
+This module provides Raku program C<zip-module> to 
+safely do that without accidentally including any git
+data or private data in the process. 
+
+Use of this module assumes the user is a developer
+creating a module using the standard layout created by C<Mi6::Helper>
+or C<App::Mi6> as shown here:
+
+=head2 Files
+
+C<Changes LICENSE META6.json dist.ini> 
+
+=head2 Directories
+
+C<lib/ bin/ docs/ sbin/ t/ xt/ .github>
+
+
+
 
 =head1 AUTHOR
 

@@ -8,7 +8,7 @@
   ],
   "depends": [
   ],
-  "description": "Use this module to aid development of a Raku module with ChatGPT\n",
+  "description": "Provides app 'zip-module' to aid development of a Raku module with ChatGPT",
   "license": "Artistic-2.0",
   "name": "ZipModule",
   "perl": "6.d",
@@ -24,3 +24,4 @@
   ],
   "version": "0.0.1"
 }
+
