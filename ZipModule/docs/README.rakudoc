@@ -1,0 +1,31 @@
+=begin pod
+
+=head1 ZipModule
+
+A small Raku CLI utility that archives selected module directories and files.
+
+=head2 Usage
+
+From a module's parent directory:
+
+    raku zip-module.raku ModuleA
+
+From inside a module directory:
+
+    raku ../zip-module.raku .
+
+The module directory argument is required. The resulting ZIP is written to the
+module's parent directory. The script includes t, xt, lib, resources, docs,
+bin, sbin, Changes, dist.ini, and META6.json when present. It excludes .git
+folders in included directories.
+
+=head2 Tests
+
+Requires C<zip> and C<unzip>. Run with C<zef test .> in the distribution root.
+
+=head2 Security
+
+This tool does not scan for sensitive content. Review the archive before
+sharing it. In particular, files within included directories may be private.
+
+=end pod

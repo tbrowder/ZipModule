@@ -1,0 +1,13 @@
+{
+    "name": "ZipModule",
+    "version": "0.0.1",
+    "description": "Package selected Raku module files into a ZIP archive",
+    "auth": "zef:local",
+    "perl": "6.d",
+    "depends": [],
+    "test-depends": [],
+    "provides": {},
+    "resources": [],
+    "tags": ["zip", "packaging"],
+    "license": "Artistic-2.0"
+}
